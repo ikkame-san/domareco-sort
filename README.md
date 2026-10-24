@@ -47,3 +47,9 @@ SE・OVERTURE、インスト、カラオケは除外し、同じ曲の再収録�
 リポジトリ: https://github.com/ikkame-san/domareco-sort
 
 mainブランチのルートをGitHub Pagesの公開元に設定します。.nojekyllで静的ファイルをそのまま配信します。変更をmainへpushすると自動で再公開されます。
+
+## 2026-10-25 新曲追加
+
+「ノーマルエンド」「未明論」を追加し、全44曲。両曲は[TWIN PLANET公式発表](https://prtimes.jp/main/html/rd/p/000000994.000025517.html)に基づき、2026-10-21のShibuya LOVEZ公演での初披露日を記録しています。配信の発売日とは区別し、ジャケットは未設定です。公式YouTubeの新着一覧と曲名検索では曲別公式動画を確認できなかったため、検索リンクを表示します。従来の公式映像28曲は維持。
+
+ルートの `node scripts/add-domareco-202610.mjs` で再適用できます。基礎データの再生成後にも本スクリプトを実行してください。

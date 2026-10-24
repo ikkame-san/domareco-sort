@@ -1,6 +1,35 @@
-// Verified public release metadata and official videos, 2026-10-08.
-export const CATALOG_DATE = '2026-10-08';
+// Existing releases/videos retained; two live debuts checked 2026-10-25.
+// dateKind=live uses the confirmed debut date, not a record release date.
+export const CATALOG_DATE = '2026-10-25';
 export const SONGS = [
+  {
+    "id": "s-d11cd8b6f1af81b0",
+    "title": "ノーマルエンド",
+    "date": "2026-10-21",
+    "dateKind": "live",
+    "release": "晴天快晴ツアー FINAL（ライブ初披露）",
+    "sources": [
+      {
+        "title": "TWIN PLANET公式発表・2026年10月21日 Shibuya LOVEZ 初披露セットリスト",
+        "url": "https://prtimes.jp/main/html/rd/p/000000994.000025517.html",
+        "date": "2026-10-21"
+      }
+    ]
+  },
+  {
+    "id": "s-9e62028d8248319a",
+    "title": "未明論",
+    "date": "2026-10-21",
+    "dateKind": "live",
+    "release": "晴天快晴ツアー FINAL（ライブ初披露）",
+    "sources": [
+      {
+        "title": "TWIN PLANET公式発表・2026年10月21日 Shibuya LOVEZ 初披露セットリスト",
+        "url": "https://prtimes.jp/main/html/rd/p/000000994.000025517.html",
+        "date": "2026-10-21"
+      }
+    ]
+  },
   {
     "id": "s-cd7a1896d19bbf6a",
     "title": "帯びていく青",
